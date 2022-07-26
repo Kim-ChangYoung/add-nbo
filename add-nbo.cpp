@@ -6,8 +6,8 @@
 int main(int argc, char *argv[]){
 
 	FILE *x, *y;
-	fp1=fopen(argv[1], "rb");
-	fp2=fopen(argv[2], "rb");
+	x=fopen(argv[1], "rb");
+	y=fopen(argv[2], "rb");
 
 	uint32_t a, b;
 
